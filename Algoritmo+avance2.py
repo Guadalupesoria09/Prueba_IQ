@@ -1,4 +1,8 @@
+IQ.py
 Algoritmo_suma
+
+  CALIFICA1=1
+  CALIFICA0=0
 
     suma= float (input{"1.¿Cuál es la suma de 10^2+108%10+754?"})
       if resul= return sum
@@ -9,29 +13,29 @@ Algoritmo_suma
           sum=({x**2})+({y%x})+(z)
           return sum 
           print("la respuesta es correcta")
-          def califica1
-          if resul= (return sum)  
-          Entonces calificaciom +1 
-      SiNo 
+          else:  calificacion= CALIFICA1
+      elif: return sum!=result
           print("respuesta incorrecta")
-          califica 0
+          calificacion= CALIFICA0
+          return califica1
 
 
 
       Floor= int (input{"2.¿Cuál es el numero entero más cercano de la divición 30/7"})
       if result= return Floor
-         x=30
-         y=7
-         def floor (x//y)
-         Floor=({30//7})
-         return Floor
-         print ("La respuesta es correcta")
-         def califica2
-         if result= (return Floor)
-         Entonces calificacion +1
-       SiNo
+          x=30
+          y=7
+          def floor (x//y)
+          Floor=({30//7})
+          return Floor
+          print ("La respuesta es correcta")
+          def califica2
+          if result= (return Floor)
+          else: calificacion= CALIFICA1
+       elif: return Floor!=result
           print("respuesta incorrecta")
-          califica 0
+          calificacion= CALIFICA0
+          return califica2
 
 
        Substration= float (input{"3.Calcula la resta de 7658-12^3"})
@@ -44,10 +48,11 @@ Algoritmo_suma
           print ("La respuesta es correcta")
           def califica3
           if result= (return Substration)
-           Entonces calificacion +1
-       SiNo
+           else: calificacion= CALIFICA1
+       elif: return Substration!=result
           print("respuesta incorrecta")
-          califica 0
+          calificacion= CALIFICA0 
+          return califica3
 
         
         Mult= int (input {"4.Calcula la siguiente multiplicación: 15^2*5*2^2"})
@@ -61,10 +66,11 @@ Algoritmo_suma
            print ("La respuesta es correcta")
           def califica4
           if result= (return Mult)
-           Entonces calificacion +1
-       SiNo
+           else: calificacion= CALIFICA1
+       elif: return Mult!=result
           print("respuesta incorrecta") 
-          califica 0
+          calificacion= CALIFICA0 
+          return califica4
 
          
          Modulos= float (input{"5. Calcula el resultado de 20%2+5%1-9/8*4"})
@@ -82,10 +88,11 @@ Algoritmo_suma
            print ("La respuesta es correcta")
            def califica5
            if result= (return Modulos)
-           Entonces calificacion +1
-       SiNo
+           else: calificacion= CALIFICA1   
+       elif: return Modulos!=result
           print("respuesta incorrecta") 
-          califica 0
+          calificacion= CALIFICA0 
+          return califica5
 
           def califinal (califica1,califica2,califica3,califica4,califica5)
           final= ({1})+({1})+({1})+({1})+({1})
@@ -94,12 +101,14 @@ Algoritmo_suma
 
           def IQ 
           if Calificacion_final= (>=4)
-             entonces IQ= 160
+             else IQ= 160
              or Calificacion_final= (2<4)
-                entonces IQ= 140
+                else IQ= 140
              or Calificacion_final= (<2)
-                entonces Iq= 120
+                else Iq= 120
                 return Calificacion_final
           print (f"IQ {return Calificacion_final}")
 
-FinAlgoritmo
+FinAlgorit
+
+
