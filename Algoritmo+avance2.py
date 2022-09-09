@@ -1,114 +1,82 @@
-IQ.py
-Algoritmo_suma
+print ("ingresa tu nombre: ")
+nombre= input ()
+print ("hola, " + nombre)
+print ("ingresa tu edad: ")
+input()
+print ("Para comenzar oprime 1; para salir oprime 2: ")
+comenzar="1"
+salir="2" 
+op= input ()
 
-  CALIFICA1=1
-  CALIFICA0=0
-
-    suma= float (input{"1.¿Cuál es la suma de 10^2+108%10+754?"})
-      if resul= return sum
-           x= 10
-           y= 108
-           z= 754
-          def suma (x,y,z)
-          sum=({x**2})+({y%x})+(z)
-          return sum 
-          print("la respuesta es correcta")
-          else:  calificacion= CALIFICA1
-      elif: return sum!=result
-          print("respuesta incorrecta")
-          calificacion= CALIFICA0
-          return califica1
+if op==salir:
+    print ("Ha salido") 
+else:
+    print ("comencemos")
 
 
+#primera pregunta 
+print("1.¿Cuál es la suma de 10^2+108%10+754?")
+respuesta= int (862)
+respuesta1= int (input())
+if respuesta1 == respuesta:
+    print ("Correcto")
+    Correcto= 1
+else:
+    print ("Incorrecto") 
+    Incorrecto=0
+print ("oprime enter para continuar: ")
+input ()
 
-      Floor= int (input{"2.¿Cuál es el numero entero más cercano de la divición 30/7"})
-      if result= return Floor
-          x=30
-          y=7
-          def floor (x//y)
-          Floor=({30//7})
-          return Floor
-          print ("La respuesta es correcta")
-          def califica2
-          if result= (return Floor)
-          else: calificacion= CALIFICA1
-       elif: return Floor!=result
-          print("respuesta incorrecta")
-          calificacion= CALIFICA0
-          return califica2
+#Suegunda pregunta
+print("2.¿Cuál es el numero entero mas cercano de la divicion 30/7?")
+respuesta02 = int (4)
+respuesta2= int (input())
+if respuesta2==respuesta02:
+    print ("Correcto")
+    correcto= correcto1 + 1
+else:
+    print("Incorrecto")
+    incorrecto=0
+print ("oprime enter para continuar: ")
+input ()
 
+#Tercera pregunta 
+print("3.Calcula la resta de 7658-12^3")
+respuesta03= int (5930)
+respuesta3= int (input())
+if respuesta3== respuesta03:
+    print ("Correcto")
+    correcto=correcto + 1
+else:
+    print ("Incorrecto")
+    Incorrecto=0
+print ("oprime enter para continuar: ")
+input ()
 
-       Substration= float (input{"3.Calcula la resta de 7658-12^3"})
-       if result= return Substration
-          x=7658
-          y=12^2
-          def Substration(x-y**3)
-          Substration= ({7658})-({12**2})
-          return Substration
-          print ("La respuesta es correcta")
-          def califica3
-          if result= (return Substration)
-           else: calificacion= CALIFICA1
-       elif: return Substration!=result
-          print("respuesta incorrecta")
-          calificacion= CALIFICA0 
-          return califica3
+#Cuarta pregunta 
+print ("4.Calcula la siguiente multiplicación: 15^2*5*2^2")
+respuesta04= int (4500)
+respuesta4= int (input())
+if respuesta4== respuesta04:
+    print("Correcto")
+    correcto= correcto + 1
+else:
+    print ("Incorrecto")
+    Incorrecto=0 
+print ("oprime enter para continuar: ")
+input ()
 
-        
-        Mult= int (input {"4.Calcula la siguiente multiplicación: 15^2*5*2^2"})
-        if result= return Mult
-           x=15^2
-           y=5
-           z=2^2
-           def Mult (x**2-y-z**2)
-           Mult= ({15**2})-({5})-({2**2})
-           return Mult
-           print ("La respuesta es correcta")
-          def califica4
-          if result= (return Mult)
-           else: calificacion= CALIFICA1
-       elif: return Mult!=result
-          print("respuesta incorrecta") 
-          calificacion= CALIFICA0 
-          return califica4
-
-         
-         Modulos= float (input{"5. Calcula el resultado de 20%2+5%1-9/8*4"})
-         if result= return Modulos
-           x=20
-           y=2
-           z=5
-           h=1
-           j=9
-           k=8
-           l=4
-           def Modulos (x%y+z%h-j/k*l)
-           Modulos= ({20%2})+({5%1})-({9/8})*({4})
-           return Modulos
-           print ("La respuesta es correcta")
-           def califica5
-           if result= (return Modulos)
-           else: calificacion= CALIFICA1   
-       elif: return Modulos!=result
-          print("respuesta incorrecta") 
-          calificacion= CALIFICA0 
-          return califica5
-
-          def califinal (califica1,califica2,califica3,califica4,califica5)
-          final= ({1})+({1})+({1})+({1})+({1})
-          return final 
-          print (f"calificación final {califinal(califica1,califica2,califica3,califica4,califica5)}")
-
-          def IQ 
-          if Calificacion_final= (>=4)
-             else IQ= 160
-             or Calificacion_final= (2<4)
-                else IQ= 140
-             or Calificacion_final= (<2)
-                else Iq= 120
-                return Calificacion_final
-          print (f"IQ {return Calificacion_final}")
-
-FinAlgorit
+#Quinta pregunta
+print ("Calcular el resultado de 20%2+5%1-9/8*4")
+respuesta05= float (-4.5)
+respuesta5= float (input())
+if respuesta5 == respuesta05:
+    print("Correcto")
+    correcto=corecto + 1
+else:
+    print("Incorecto")
+    Incorrecto=0
+print("Oprime enter para continuar: ")
+input()
 
 
