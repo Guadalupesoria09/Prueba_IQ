@@ -1,5 +1,5 @@
-##Maria Guadalupe Soria Velazquez 
-###A01710797
+## Maria Guadalupe Soria Velazquez 
+### A01710797
 
 # Prueba_IQ
 ## Avance 1-2
