@@ -13,29 +13,26 @@ else:
     print ("comencemos")
 
 def preguntar():
-    calif=0
-    indice=0
-    while indice<5:
-        print(preguntas[indice])
-        resp=input()
-        if resp==respuestas[indice]:
-            print("correcto")
-            calif+=1
-        indice=indice+1
+    calif = 0
+    for conjunto in lista :
+        print(conjunto[0])
+        resp=float(input())
+        if resp == conjunto[1]:
+            calif += 1 
     return calif
 
-preguntas = [
-    "1.¿Cuál es la suma de 10^2+108%10+754?",
-    "2.¿Cuál es el numero entero mas cercano de la división 30/7?",
-    "3.Calcula la resta de 7658-12^3",
-    "4.Calcula la siguiente multiplicación: 15^2*5*2^2",
-    "5.Calcular el resultado de 20%2+5%1-9/8*4"
-    ]
-
-respuestas = ["862","4","5930","4500","-4.5"]
+lista = [
+    ['1.¿Cuál es la suma de 10^2+108%10+754?',862],
+    ["2.¿Cuál es el numero entero mas cercano de la división 30/7?", 4],
+    ["3.Calcula la resta de 7658-12^3",5930,20],
+    ["4.Calcula la siguiente multiplicación: 15^2*5*2^2",4500],
+    ["5.Calcular el resultado de 20%2+5%1-9/8*4",-4.5]
+]
 
 calificacion=preguntar()
 print(f"Tu calificacion fue {calificacion/5}")
+
+   
 
 
 
