@@ -1,0 +1,8 @@
+El programa comienza registrando datos del usuario como su nombre y edad.
+Posteriormente da la indicación de oprimir la tecla uno para comenzar con la serie de preguntas.
+El test cuenta con 8 preguntas, en las cuales se solicita al usuario que ingrese su respuesta o resultado.
+Las respuestas son abiertas y pueden ser enteros o flotantes. 
+Para pasar de una pregunta a otra hay que presionar la tecla enter.
+Una vez finalizadas las 8 preguntas, te dara una calificación con un respectivo puntaje de IQ que puede ser de 100, 120 o 140.
+Cada puntaje obtenido arroja un mensaje con el significado de este
+Finaliza codigo.
