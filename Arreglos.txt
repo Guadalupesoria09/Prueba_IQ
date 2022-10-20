@@ -1,0 +1,5 @@
+Avance 4- Componente: aplica estructuras condicionales para resolver un ploblema.
+observación: Intenta modularizar tu código y aprovecha las condicionales para que tu código se comporte diferente dependiendo de los casos. Veo que repetiste mucho tu código.
+En la entrega anterior implemente condicionales en su mayoria del codigo, sin embargo, en la entrega final implementé ciclos para poder optimizar mejor el funcionamiento. 
+
+entrega anterior: 
